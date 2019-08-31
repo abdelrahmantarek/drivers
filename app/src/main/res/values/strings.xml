@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">service provider</string>
+    <string name="title_activity_maps">service provider</string>
+    <string name="google_direction_api" translatable="false">AIzaSyBylOQ7PvH-zcZsGjqarDvI7CUXZCejJUU</string>
+
+    <string name="google_maps_key">AIzaSyCywwb9qTfW84r7TPDmyAaTc9bC2zBOfKU</string>
+
+
+
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+
+
+
+
+
+    <!--    navigation drawer    -->
+    <string name="nav_Your_service_number">Your service number</string>
+    <string name="nav_Balance">Balance</string>
+    <string name="nav_profile">profile</string>
+    <string name="nav_my_order">my order</string>
+    <string name="nav_share_app">Share</string>
+    <string name="nav_question">Questions</string>
+    <string name="nav_join_to_staff">Join the team</string>
+    <string name="nav_Terms_and_Conditions">Terms and Conditions</string>
+    <string name="nav_rating_app">rating app</string>
+    <string name="nav_Connect_with_us">Connect with us</string>
+    <string name="nav_sign_out">sign out</string>
+    <string name="nav_language">عربي</string>
+    <string name="btn_show_all_service">services</string>
+    <string name="fab_Map_color">Map color</string>
+    <string name="fab_get_location">get location</string>
+    <string name="Sat7a_sheet_Flats">Flats</string>
+    <string name="sat7a_Hydraulics_Flat">Hydraulics Flat</string>
+    <string name="sat7a_Normal_flat">Normal flat</string>
+    <string name="sat7a_Start_the_counter">Start the counter</string>
+    <string name="sat7a_Minute">Minute</string>
+    <string name="sat7a_kilometer">kilometer</string>
+    <string name="sat7a_Your_feedback_here">Your feedback here</string>
+    <string name="sat7a_the_cost">the cost</string>
+    <string name="Sat7a_Service_provider_request">Service provider request</string>
+    <string name="winch">winch</string>
+    <string name="winsh_Hydraulic_winch_10_RS">Hydraulic winch</string>
+    <string name="From">From</string>
+    <string name="to">to</string>
+    <string name="btn_Service_Request">Service Request</string>
+    <string name="Fuel_saving">Fuel saving</string>
+    <string name="Gasoline_in_the_cities_10_RS">Gasoline in the cities 10 RS</string>
+    <string name="Gasoline_outside_cities_10_RS">Gasoline outside cities 50 RS</string>
+    <string name="Service_key">Service key</string>
+    <string name="Within_the_cities_50_RS">Within the cities 50 RS</string>
+    <string name="Outside_the_cities_100_RS">Outside the cities 100 RS</string>
+    <string name="Tire_change">Tire change</string>
+    <string name="Filling_the_box_with_air_30_RS">Filling the box with air 30 RS</string>
+    <string name="Change_reserve_frame_50_RS">Change reserve frame 50 RS</string>
+    <string name="Change_frame_at_station_100_RS">Change frame at station 100 RS</string>
+    <string name="battery_charge">battery charge</string>
+    <string name="Battery_subscription_50_RS">Battery subscription 50 RS</string>
+    <string name="Battery_charge_10_RS">Battery charge 10 RS</string>
+    <string name="taxi">taxi</string>
+    <string name="Taxi_10_RS">Taxi 10 RS</string>
+    <string name="Transfer_between_cities">Transfer between cities</string>
+    <string name="Transfer_between_cities_50_RS">Transfer between cities 50 RS</string>
+    <string name="request_wating_for_reply">wating for reply</string>
+    <string name="request_cancel">cancel</string>
+    <string name="service_details_of_trip">details of trip</string>
+    <string name="service_your_tip_from">your trip from</string>
+    <string name="service_your_trip_to">your trip to</string>
+    <string name="service_maintenance_type">maintenance type</string>
+    <string name="service_type_of_car">type of car</string>
+    <string name="service_plate_number">plate number</string>
+    <string name="service_cancel">cancel</string>
+    <string name="service_providor">service providor</string>
+    <string name="service_the_price_of_the_trip">the price of the trip</string>
+    <string name="recyclerview_not_fount_hint">there is no</string>
+    <string name="profile_all_of_service">all services</string>
+    <string name="welcome_login">login</string>
+    <string name="welcome_register_a_new_user">register a new user</string>
+    <string name="welcome_welcome_to_the_el_farag_of_motor_cars">welcome to the el farag of motor cars</string>
+    <string name="service_providor_request">service providor request</string>
+    <string name="service_request">service request</string>
+    <string name="login_login_text">login</string>
+    <string name="login_email_or_phone">email or phone</string>
+    <string name="login_password">password</string>
+    <string name="login_btn">login</string>
+    <string name="register_a_new_user">register a new user</string>
+    <string name="register_your_name">your name</string>
+    <string name="register_your_phone">your phone</string>
+    <string name="register_email">register email</string>
+    <string name="register_password">password</string>
+    <string name="register_btn">register</string>
+    <string name="fab_service_details">service details</string>
+    <string name="fab_service_providor_location">service providor location</string>
+    <string name="fab_contact_your_service_providor">call your service providor</string>
+    <string name="service_not_found">not found</string>
+    <string name="service_fab_call_the_customer">call the customer</string>
+    <string name="service_location_customer">customer location</string>
+    <string name="service_go_to_customers_car">go to customers car</string>
+    <string name="reg_first_name">first name</string>
+    <string name="reg_last_name">last name</string>
+    <string name="reg_email">email</string>
+    <string name="reg_your_city">your city</string>
+    <string name="reg_iban_number">I BAN number</string>
+    <string name="reg_personal_indentification_number">personal indentification number</string>
+    <string name="reg_password">password</string>
+    <string name="reg_confirm_password">confirm password</string>
+    <string name="reg_image_of_personal_indentity">image of personal indentity</string>
+    <string name="reg_image_the_car_license">image the car form</string>
+    <string name="reg_btn_done1">done</string>
+    <string name="reg_number_phone">number phone</string>
+    <string name="reg_type_of_car">type of car</string>
+    <string name="reg_plate_number">plate number</string>
+    <string name="reg_model">model</string>
+    <string name="reg_type_of_service_providor">type of service providor</string>
+    <string name="reg_picture_of_the_car_from_front">picture of the car from front</string>
+    <string name="reg_car_papers">car papers</string>
+    <string name="reg_send_btn">send</string>
+    <string name="reg_picture_of_the_car_from_behind">picture of the car from behind</string>
+    <string name="reg_image_insurance">image insurance</string>
+    <string name="notification_you_have_request">you have request</string>
+
+    <!--    bottom sheet    -->
+
+
+
+</resources>

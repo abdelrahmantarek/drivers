@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+    tools:context=".NAV.QuestionActivity">
+
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="25dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="">
+
+
+            <TextView
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/abdo_b"
+                android:text="الاسئلة الشائعة"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+
+      >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+          >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="ما هي حدود التغطية الجغرافية ؟"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp" />
+
+            //
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="المملكة العربية السعودية بما فيها الطرق السريعة"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"       android:lineSpacingExtra="4dp" />
+
+   <View
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="70dp"
+                android:background="@android:color/darker_gray"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"></View>
+				
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="هل يتم تغطية جميع الطرق بما فيها الرملية ؟"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="جميع الطرق المعبدة ( والتي تصل اليها سيارة نجم"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"       android:lineSpacingExtra="4dp" />
+   <View
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="70dp"
+                android:background="@android:color/darker_gray"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"></View>
+				
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="هل يتم نقل السيارة المتعطلة بكل اشكالها ؟"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp" />
+
+            //
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="لاتغطي الخدمة عطل او حادث بسبب قانوني"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"       android:lineSpacingExtra="4dp" />
+
+   <View
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="70dp"
+                android:background="@android:color/darker_gray"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"></View>
+				
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="ماهو زمن الوصول المقدر ؟"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp" />
+
+            //
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="زمن وصول السائق داخل المدن بأقرب سائق لك كحد أقصى 45 دقيقة وخارج المدن ساعة لكل 100 كم"
+                android:textColor="@android:color/black"
+                android:textSize="16dp" />
+
+   <View
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="70dp"
+                android:background="@android:color/darker_gray"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"></View>
+				
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="هل يتم أحتساب قيمة توصيل الوقود ؟"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp" />
+
+            //
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="يتم احتساب قيمة الوقود على العميل "
+                android:textColor="@android:color/black"
+                android:textSize="16dp"       android:lineSpacingExtra="4dp" />
+
+   <View
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="70dp"
+                android:background="@android:color/darker_gray"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"></View>
+				
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="هل يتم تبديل الإيطار بجديد ؟ "
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp" />
+
+            //
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="في حال عطل بالإيطار يتم تبديلة بالاحتياطي أو يتم نقل السيارة الى أقرب بنشري "
+                android:textColor="@android:color/black"
+                android:textSize="16dp"       android:lineSpacingExtra="4dp" />
+   <View
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="70dp"
+                android:background="@android:color/darker_gray"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"></View>
+				
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="هل يلزم اي وثايق لطلب الخدمة ؟"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp" />
+
+            //
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="لايتم تحميل السيارة إلا بوجود الوثائق الرسمية"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"       android:lineSpacingExtra="4dp" />
+
+   <View
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="70dp"
+                android:background="@android:color/darker_gray"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"></View>
+				
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="كيف تتم عملية فتح السيارة ؟"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp" />
+
+            //
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="طريقة فتح السيارة على أمهر الفنيين المتدربين في وكلاء السيارات بطريقة فنية يدوية محترفة"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"       android:lineSpacingExtra="4dp" />
+
+   <View
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="70dp"
+                android:background="@android:color/darker_gray"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"></View>
+				
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="هل تتحمل الشركة اضرار السيارة ؟"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp" />
+
+            //
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="لاتتحمل الشركة اي أضرار حصلت بالمركبة قبل تحميل السيارة"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"       android:lineSpacingExtra="4dp" />
+   <View
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="70dp"
+                android:background="@android:color/darker_gray"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"></View>
+				
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="هل يتم شحن البطارية او استبدالها بواحدة جديدة ؟"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp" />
+
+            //
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="يتم شحن البطارية بجهاز شحن لإعادة تشغيل السيارة  او نقل السيارة الى اقرب مزود خدمة"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"       android:lineSpacingExtra="4dp" />
+
+
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+
+
+
+
+</LinearLayout>

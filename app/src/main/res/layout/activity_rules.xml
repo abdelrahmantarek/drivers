@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+    tools:context=".NAV.RulesActivity">
+
+
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="25dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:fontFamily="@font/abdo_h"
+                    android:text="ضوابط وشروط استخدام "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:fontFamily="@font/abdo_h"
+                    android:text="تطبيق الفرج"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"/>
+
+            </LinearLayout>
+
+
+
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_marginBottom="30dp">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="العقد"
+				    android:lineSpacingExtra="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+            <TextView
+                android:layout_marginTop="18dp"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:lineSpacingExtra="4dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="تمثل هذه الضوابط والشروط اتفاق رسمي عقد بين شركة الفرج لنقل السيارات والعملاء بكافة اشكالهم شركات وافراد وتحكم هذه الشروط استخدام العملاء مستخدمي التطبيق لطلب تقديم الخدمات لهم وفقاً لما يتيحه التطبيق  كما تتمثل خدمات التطبيق بنقل المركبات وشحن البطارية وأعطال الإطارات وما إلى ذلك من الخدمات التي تعتبر ضمن خدمات المساعدة على الطريق ان أي استخدام من قبلك للخدمات التي يوفرها تطبيق الفرج يشكل موافقة كاملة منك على هذا العقد وأحكامه"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+				
+						   <View
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="70dp"
+                android:background="@android:color/darker_gray"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"></View>
+				
+		
+         
+
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="الترخيص"
+				    android:lineSpacingExtra="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:lineSpacingExtra="4dp"
+                android:text="يمنحك الفرج ترخيص غير حصري، وغير قابل للتحويل، وغير قابل للتنازل، وغير قابل للترخيص من الباطن، وذلك لتقديم الخدمات المتاحة عبر التطبيق لذا يجب مراجعة التالي :
+"
+                android:textColor="@android:color/black"
+                android:textSize="16dp" />
+				
+				
+				
+            <TextView
+                android:layout_marginTop="18dp"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:lineSpacingExtra="4dp"
+                android:text="1ـ عدم إتاحة الخدمات وتأجير، واستئجار وتخصيص وإعادة بيع، أو توزيع أو ترخيص من الباطن لهذه الخدمات إلى أي طرف ثالث"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+            />
+				
+								
+            <TextView
+                android:layout_marginTop="18dp"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="2ـ عدم السماح بمشاركة اسم المستخدم/ أو كلمة المرور أو غيرها من مسوغات الوصول إلى خدمات الفرج"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+								
+
+				
+				
+				   <View
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="70dp"
+                android:background="@android:color/darker_gray"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"></View>
+				
+
+				
+				
+            <TextView
+                android:layout_marginTop="25dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="الضمانات"
+				    android:lineSpacingExtra="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+				
+				
+										
+            <TextView
+                android:layout_marginTop="18dp"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/abdo_h"
+				    android:lineSpacingExtra="4dp"
+                android:text="1ـ بأنك تمتثل لكافة القوانين واللوائح المعمول بها في المملكة العربية السعودية"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+				
+				
+														
+            <TextView
+                android:layout_marginTop="18dp"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/abdo_h"
+				    android:lineSpacingExtra="4dp"
+                android:text="2ـ أنك تتمتع بكامل الأهلية والقدرة للتعاقد وأنك بذلك لن تكون منتهكاً لأي قانون أو عقد"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+				
+								
+														
+            <TextView
+                android:layout_marginTop="18dp"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/abdo_h"
+				    android:lineSpacingExtra="4dp"
+                android:text="3ـ بأنك تقدم معلومات صحيحة ودقيقة إلى الفرج وتقوم بتحديثها اذا طلب منك"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+				
+				
+																		
+            <TextView
+                android:layout_marginTop="18dp"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+				    android:lineSpacingExtra="4dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="4ـ استخدام الخدمة  لأغراض مشروعة فقط، ولن تستخدم الخدمات لإرسال أو تخزين أي مواد غير قانونية أو بهدف الاحتيال"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+				
+								
+				
+																		
+            <TextView
+                android:layout_marginTop="18dp"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+				    android:lineSpacingExtra="4dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="5ـ بأنك تحافظ على كلمة المرور لحسابك أو أي وسيلة تعريف نقدمها لك وتضمن الدخول إلى حسابك، بشكلٍ آمن وسري"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+				
+				
+								
+																		
+            <TextView
+                android:layout_marginTop="18dp"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/abdo_h"
+				    android:lineSpacingExtra="4dp"
+                android:text="6ـ باتخاذك لكافة الإجراءات النظامية المتعلقة بسلامة مستندات المركبات وصلاحية تراخيصها، وكذلك سلامة مستندات قائدي المركبات والعاملين عليها وصلاحية التراخيص للتمكن من تقديم الخدمة"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+				
+							
+								
+																		
+            <TextView
+                android:layout_marginTop="18dp"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/abdo_h"
+				    android:lineSpacingExtra="4dp"
+                android:text="	7ـ تخضع الشروط والضوابط الماثلة وتطبق على تسوية أي نزاع أو مطالبة أو خلاف ينشأ عن شروط المستخدم الماثلة أو يتعلق بها أو أي انتهاك لها أو إنهائها أو تنفيذها أو تفسيرها أو صحتها أو استخدامالخدمة ، للقوانين والأنظمة المطبقة في المملكة العربية السعودية وتفسر وفقا لها "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+				
+			
+
+		   <View
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="70dp"
+                android:background="@android:color/darker_gray"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"></View>
+				
+
+				
+				
+            <TextView
+                android:layout_marginTop="25dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="اخلاء المسئولية"
+				    android:lineSpacingExtra="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+            <TextView
+                android:layout_marginTop="18dp"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/abdo_h"
+				    android:lineSpacingExtra="4dp"
+                android:text="لن تكون شركة االفرج لنقل السيارات مسئولة عن أية أضرار أو خسائر أو التزامات بما في ذلك على سبيل الذكر لا الحصر الأضرار أو الخسائر أو الالتزامات المباشرة وغير المباشرة أو الخاصة أو العرضية أو الناشئة فيما يتعلق بعدم التزام العميل بالشروط والاحكام السابقة"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+				
+				
+   <View
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="70dp"
+                android:background="@android:color/darker_gray"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"></View>
+				
+
+				
+				
+            <TextView
+                android:layout_marginTop="25dp"
+				    android:lineSpacingExtra="4dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="مدة العقد"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+            <TextView
+                android:layout_marginTop="18dp"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+				    android:lineSpacingExtra="4dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="يحق للفرج إنهاء العقد في أي وقت وذلك في حالة قيامك بأي مما يلي: انتهاك أو خرق أي شرط من شروطالعقد وإن الفرج غير ملزم بإرسال إخطار أو إنذار قبل إنهاء العقد"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+				
+				   <View
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="70dp"
+                android:background="@android:color/darker_gray"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"></View>
+				
+
+				
+            <TextView
+                android:layout_marginTop="25dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"
+				    android:lineSpacingExtra="4dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="تعديل الخدمات والشروط"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+            <TextView
+                android:layout_marginTop="18dp"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+				    android:lineSpacingExtra="4dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="	يحتفظ الفرج لنفسه بالحق، وفقًا لتقديره وحده، في تعديل أي شرط من الشروط والضوابط الماثلة أو استبداله، أو تغيير الخدمة  أو إلغائها نهائياً (بما في ذلك على سبيل المثال لا الحصر، توفير أي ميزة أو قاعدة بيانات أو محتوى) في أي وقت، وذلك بنشر إخطار على التطبيق أو بإرسال إخطار لك من خلال الخدمة او التطبيق او عبر البريد الإلكتروني غير مشروط بفترة تنبيه معينة. كما يجوز للفرج أن تضع قيودًا على ميزات وخدمات مُعيَّنة  أو الخدمة بأكملها دون إخطار أو مسؤولية"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"				/>
+
+			   <View
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="70dp"
+                android:background="@android:color/darker_gray"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"></View>
+				
+
+								
+            <TextView
+                android:layout_marginTop="25dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"
+				    android:lineSpacingExtra="4dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="سياسة الخصوصية"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_marginTop="18dp"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+				    android:lineSpacingExtra="4dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/abdo_h"
+				   android:layout_width="match_parent"
+                android:text="من بالغ الأهمية لدينا في الفرج أن نحتفظ بسرية وأمان معلوماتكم الشخصية، ويُشار لأي معلومات عنكم تزودوننا بها عند استخدام موقعنا، مثل المعلومات التي تقدمونها عند التسجيل للحصول على حساب مستخدم أو عند الدخول في تعاملات عبر الموقع والتي قد تتضمن (على سبيل المثال لا الحصر) اسمك ومعلومات بالاتصالوالجنس وتاريخ الميلاد والمهنة؛ جمعاً معلومات شخصية ، كما أن أي إشارة لـ نحن ولنا  تُعتبَر إشارة إلى الفرج"
+                android:layout_height="wrap_content" />
+
+			
+
+
+            <TextView
+                android:layout_marginTop="18dp"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/abdo_h"
+				    android:lineSpacingExtra="4dp"
+				   android:layout_width="match_parent"
+                android:text="تنطبق سياسة الخصوصية هذه فقط على المعلومات التي نجمعها من خلال موقع الفرج (يشار له فيما يلي بـ التطبيق وهو يشمل جميع المحتوى والصفحات الموجودة ضمن التطبيق الالكتروني الفرج لنقل السيارات) ولا تنطبق على المعلومات التي قد نحصل عليها منك بطرق أخرى"
+                android:layout_height="wrap_content" />
+
+			
+			
+			   <View
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="70dp"
+                android:background="@android:color/darker_gray"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"></View>
+				
+
+			
+										
+            <TextView
+                android:layout_marginTop="25dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"
+				    android:lineSpacingExtra="4dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/abdo_h"
+                android:text="الموافقة على نقل المعلومات الشخصية"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="18dp"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+				    android:lineSpacingExtra="4dp"
+                android:fontFamily="@font/abdo_h"
+				   android:layout_width="match_parent"
+                android:text="بموجب هذه الوثيقة، أنت توافق على جمع الفرج لمعلوماتك الشخصية - كما بينت في سياسة الخصوصية هذه - واستخدامها والإفصاح عنها والاحتفاظ بها، بما في ذلك على سبيل المثال لا الحصر: نقل معلوماتك الشخصية بين الفرج والغير والشركات التابعة والفرعية المبينة في سياسة الخصوصية هذه"
+                android:layout_height="wrap_content" />
+
+			 <TextView
+                android:layout_marginTop="18dp"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/abdo_h"
+				    android:lineSpacingExtra="4dp"
+				   android:layout_width="match_parent"
+                android:text="وتعتبر أي موافقة متعلقة بحق نقل المعلومات المشار إليها في هذه الفقرة أنها تتضمن موافقتكم على نقل المعلومات الشخصية القابلة للتطبيق  وهذا قد ينجم عنه مستوى مختلف من حماية الخصوصية"
+                android:layout_height="wrap_content" />
+
+				   <View
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="70dp"
+                android:background="@android:color/darker_gray"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"></View>
+				
+
+				
+			<TextView
+                android:layout_marginTop="25dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/abdo_h"
+				    android:lineSpacingExtra="4dp"
+                android:text="لماذا تجمع الفرج هذه المعلومات؟"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+				
+			 <TextView
+                android:layout_marginTop="18dp"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/abdo_h"
+				    android:lineSpacingExtra="4dp"
+				   android:layout_width="match_parent"
+                android:text="نحتاج إلى هذه المعلومات لمساعدتنا على تحسين خدماتنا المقدمة إليك؛ كما نريد تسهيل تهيئة منتجاتنا وخدماتنا بحيث تلائم احتياجاتك الخاصة"
+                android:layout_height="wrap_content" />
+
+   <View
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="70dp"
+                android:background="@android:color/darker_gray"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"></View>
+				
+
+			<TextView
+                android:layout_marginTop="25dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/abdo_h"
+				    android:lineSpacingExtra="4dp"
+                android:text="إلى متى ستخزن هذه المعلومات؟ "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+				
+			 <TextView
+                android:layout_marginTop="18dp"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/abdo_h"
+				    android:lineSpacingExtra="4dp"
+				   android:layout_width="match_parent"
+                android:text="ستخزن الفرج هذه المعلومات في بيئة آمنة تتمتع بالحماية طوال مدة العقد نعتقد أن هذه المعلومات ستكون خلالها مصدر عون لنا في فهم كيفية تقديم خدماتنا إليك واحترام رغباتك. إضافة إلى ذلك،  لفهم كيفية تعديل المعلومات المخزنة عنك أو تحديثها"
+                android:layout_height="wrap_content" />
+				
+				   <View
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="70dp"
+                android:background="@android:color/darker_gray"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"></View>
+				
+
+			<TextView
+                android:layout_marginTop="25dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/abdo_h"
+				    android:lineSpacingExtra="4dp"
+                android:text="تغييرات سياسة الخصوصية"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+				
+				
+			 <TextView
+                android:layout_marginTop="18dp"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/abdo_h"
+				    android:lineSpacingExtra="4dp"
+				   android:layout_width="match_parent"
+                 android:text="يرجى الأخذ بعين الاعتبار أننا نقوم بمراجعة سياسة الخصوصية هذه دورياً وقد نُجري عليها بعض التغييرات، عندما نُجري أية تغييرات فإن رابط سياسة الخصوصية سيحتوي إشارة مراجعة حديثة (مع التاريخ)  مما يشير إلى وجوب مراجعتك للأحكام الجديدة التي تعتبر سارية فور نشر السياسة الجديدة على هذه الصفحة مع تاريخ نفاذ جديد. ستبقى هذه الإشارة موضوعة إلى جانب رابط سياسة الخصوصية لمدة عشرة (١٠) أيام على الأقل بعد إجراء التحديثات. ويُعتبَر دخولك الموقع بعد إجراء أي تغييرات موافقةً مسبقة منك على سياسة الخصوصية المعدّلة وأية تغييرات فيها، وفي حال استلامك إشعار بالتعديلات والمذكور أعلاه، احرص على زيارة هذه الصفحة بشكل دوري للتأكد من معرفتك بأحدث نسخة من سياسة الخصوصية"
+                android:layout_height="wrap_content" />
+				
+        </LinearLayout>
+
+
+
+
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+
+
+
+
+</LinearLayout>

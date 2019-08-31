@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">مقدم خدمة</string>
+    <string name="title_activity_maps">مقدم خدمة</string>
+
+
+    <string name="nav_Balance">الرصيد</string>
+    <string name="nav_Connect_with_us">تواصل معنا</string>
+    <string name="nav_Terms_and_Conditions">الشروط والاحكام</string>
+    <string name="nav_Your_service_number">رقم مزود الخدمة</string>
+    <string name="nav_join_to_staff">انضم لفريق العمل</string>
+    <string name="nav_language">English</string>
+    <string name="nav_my_order">طلباتي</string>
+    <string name="nav_profile">شخصي</string>
+    <string name="nav_question">الاسئلة الشائعة</string>
+    <string name="nav_rating_app">تقيم التطبيق</string>
+    <string name="nav_share_app">مشاركة التطبيق</string>
+    <string name="nav_sign_out">تسجيل الخروج</string>
+
+
+
+
+
+    <string name="btn_show_all_service">الخدمات</string>
+    <string name="fab_Map_color">لون الخريطة</string>
+    <string name="fab_get_location">تحديد الموقع</string>
+    <string name="Sat7a_sheet_Flats">سطحة</string>
+    <string name="sat7a_Normal_flat">سطحة عادي</string>
+    <string name="sat7a_Hydraulics_Flat">سطحة هيدروليك</string>
+    <string name="sat7a_Start_the_counter">بداية العداد</string>
+    <string name="sat7a_Minute">دقيقة</string>
+    <string name="sat7a_kilometer">كيلو متر</string>
+    <string name="sat7a_Your_feedback_here">ملاحظاتك هنا</string>
+    <string name="sat7a_the_cost">التكلفة</string>
+    <string name="Sat7a_Service_provider_request">طلب مقدم الخدمة</string>
+    <string name="winch">ونش</string>
+    <string name="winsh_Hydraulic_winch_10_RS">ونش هيدروليك</string>
+    <string name="From">من</string>
+    <string name="to">الى</string>
+    <string name="btn_Service_Request">طلب خدمة</string>
+    <string name="Gasoline_in_the_cities_10_RS">بنزين</string>
+    <string name="Fuel_saving">توفير وقود</string>
+    <string name="Gasoline_outside_cities_10_RS">بنزين</string>
+    <string name="Service_key">خدمة المفتاح</string>
+    <string name="Within_the_cities_50_RS">داخل المدن 50 ريال</string>
+    <string name="Outside_the_cities_100_RS">خارج المدن 100 ريال</string>
+    <string name="Tire_change">تغير الاطارات</string>
+    <string name="Filling_the_box_with_air_30_RS">تعبئة الاطار بالهواء 30 ريال</string>
+    <string name="Change_reserve_frame_50_RS">تغير الاطار الاحتياطي 50 ريال</string>
+    <string name="Change_frame_at_station_100_RS">"تغير الاطار في محطة 100 ريال "</string>
+    <string name="battery_charge">شحن بطارية</string>
+    <string name="Battery_subscription_50_RS">اشتراك بطارية 50 ريال</string>
+    <string name="Battery_charge_10_RS">شحن بطارية 10 ريال</string>
+    <string name="taxi">تاكسي</string>
+    <string name="Transfer_between_cities">نقل بين المدن</string>
+    <string name="Taxi_10_RS">تاكسي 10 ريال</string>
+    <string name="Transfer_between_cities_50_RS">نقل بين المدن 50 ريال</string>
+    <string name="request_wating_for_reply">في انتظار الرد</string>
+    <string name="request_cancel">الغاء</string>
+    <string name="service_details_of_trip">تفاصيل الرحلة</string>
+    <string name="service_your_tip_from">رحلتك من</string>
+    <string name="service_your_trip_to">رحلتك الى</string>
+    <string name="service_maintenance_type">نوع الصيانة</string>
+    <string name="service_type_of_car">نوع السيارة</string>
+    <string name="service_plate_number">رقم لوحة السيارة</string>
+    <string name="service_cancel">الغاء</string>
+    <string name="service_the_price_of_the_trip">سعر الرحلة</string>
+    <string name="service_providor">مقدم الخدمة</string>
+
+
+
+    <string name="recyclerview_not_fount_hint">لا يوجد</string>
+    <string name="profile_all_of_service">جميع الخدمات</string>
+    <string name="welcome_login">تسجيل الدخول</string>
+    <string name="welcome_register_a_new_user">تسجيل مستخدم جديد</string>
+    <string name="welcome_welcome_to_the_el_farag_of_motor_cars">مرحبا بك في الفرج لانقاذ السيارات</string>
+    <string name="service_providor_request">طلب اقرب سائق</string>
+    <string name="service_request">طلب خدمة</string>
+    <string name="login_login_text">تسجيل الدخول</string>
+    <string name="login_email_or_phone">البريد  او  الهاتف</string>
+    <string name="login_password">كلمة السر</string>
+    <string name="login_btn">تسجيل الدخول</string>
+    <string name="register_a_new_user">تسجيل مسخدم جديد</string>
+    <string name="register_your_name">الاسم</string>
+    <string name="register_your_phone">الهاتف</string>
+    <string name="register_email">البريد الالكتروني</string>
+    <string name="register_password">كلمة السر</string>
+    <string name="register_btn">نسجيل</string>
+
+
+    <string name="fab_service_details">تفاصيل الخدمة</string>
+    <string name="fab_service_providor_location">موقع مقدم الخدمة</string>
+    <string name="fab_contact_your_service_providor">cالاتصال بمقدم الخدمة</string>
+    <string name="service_not_found">لا يوجد</string>
+    <string name="service_fab_call_the_customer">الاتصال بالعميل</string>
+    <string name="service_location_customer">موقع العميل الحالي</string>
+    <string name="service_go_to_customers_car">الذهاب لسيارة العميل</string>
+    <string name="reg_first_name">الاسم الاول</string>
+    <string name="reg_last_name">الاسم الاخير</string>
+    <string name="reg_email">البريد الالكتروني</string>
+    <string name="reg_your_city">المدينة</string>
+    <string name="reg_iban_number">I BAN رقم</string>
+    <string name="reg_personal_indentification_number">رقم الهوية الشخصية</string>
+    <string name="reg_password">كلمة السر</string>
+    <string name="reg_confirm_password">تأكيد كلمة السر</string>
+    <string name="reg_image_of_personal_indentity">صورة الهوية الشخصية</string>
+    <string name="reg_image_the_car_license">صورة استمارة السيارة</string>
+    <string name="reg_btn_done1">تم</string>
+    <string name="reg_number_phone">رقم الجوال</string>
+    <string name="reg_type_of_car">نوع السيارة</string>
+    <string name="reg_plate_number">رقم لوحة السيارة</string>
+    <string name="reg_model">الموديل</string>
+    <string name="reg_type_of_service_providor">نوع الخدمة المقدمة</string>
+    <string name="reg_picture_of_the_car_from_front">صورة السيارة من الامام</string>
+    <string name="reg_car_papers">اوراق السيارة</string>
+    <string name="reg_send_btn">ارسال</string>
+    <string name="reg_picture_of_the_car_from_behind">piصورة السيارة من الخلف</string>
+    <string name="reg_image_insurance">صورة التأمين</string>
+    <string name="notification_you_have_request">لديك طلب رحلة</string>
+
+
+</resources>
